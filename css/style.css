@@ -1,0 +1,364 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+header {
+    height: 100vh;
+    background: url(../images/burger\ SM.png) center /cover no-repeat;
+    position: relative;
+
+}
+
+header::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0, .4);
+}
+
+header * {
+    z-index: 10;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar img {
+    width: 80px;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 100px;
+
+}
+
+.list li {
+    padding: 10px;
+}
+
+.list li a {
+    color: azure;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.list li a:hover {
+    border-bottom: 3px solid olivedrab;
+}
+
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: aliceblue;
+}
+
+.content h1 {
+    font-size: 25px;
+}
+
+button {
+    border-radius: 15px;
+    border: solid 2px white;
+    padding: 15px 30px;
+    cursor:pointer;
+}
+
+#but {
+    background-color: transparent;
+    color: aliceblue;
+
+}
+
+#learn:hover ,#but:hover ,#off:hover{
+    font-weight: 600;
+    background-color: chartreuse;
+    color: rgb(236, 236, 236);
+    font-size: larger;
+}
+
+.gallery img {
+    width: 250px;
+    border-radius: 15px 10px;
+    height: 200px;
+
+}
+
+.container {
+    margin: 50px 50px;
+    padding: 30px;
+    text-align: center;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.about-content {
+    width: 500px;
+    padding: 20px;
+}
+
+.about-content p {
+    text-align: left;
+    margin-right: 5rem;
+    line-height: 2;
+    font-weight: 400;
+
+}
+
+#learn {
+    background-color: rgb(51, 51, 101);
+    color: aliceblue;
+    font-size: large;
+    font-weight: 300;
+    float: left;
+    margin-top: 30px;
+}
+
+#learn:hover {
+    background-color: blanchedalmond;
+    color: rgb(51, 51, 101);
+    font-size: large;
+    font-weight: 500;
+}
+
+.content2 img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+}
+
+.content2 {
+    background-color: rgb(78, 78, 125);
+    height: 700px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.gallery2 {
+    display: flex;
+    justify-content: space-evenly;
+    justify-items: center;
+    margin-top: 200px;
+    color: aliceblue;
+}
+
+#tit.title  ,#men.title{
+    position: relative;
+    top: 100px;
+    line-height: .6;
+    text-align: center;
+
+}
+
+
+#tit h2,#men h2 {
+    font-size: 26px;
+    text-transform: capitalize;
+    font-family:'Tahoma';
+}
+#tit{
+    color: aliceblue;
+
+}
+#men{
+    color: brown;
+}
+
+
+.items img{
+    width: 90px;height: 85px;border-radius: 50%;
+    margin-right: 20px;
+}
+
+.items{
+    margin:200px  50px ;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;align-items: center;
+}
+
+ul li{
+    display: flex;
+    justify-content: center;align-items: center;
+    margin: 20px;
+font-weight:600;
+}
+#menu ul h3 {
+    border-bottom: 1px rgb(239, 236, 236) solid;
+    padding: 10px;position: relative;
+    color: rgb(135, 79, 135);
+}
+#menu ul li span{
+    position: absolute;
+top: 0;right: 0;
+}
+
+#off{
+    display: block;
+    background-color: rgb(174, 102, 135);
+    font-weight: 700;
+    margin: auto;
+}
+
+#off:hover{
+    background-color: rgb(196, 138, 164);
+}
+
+
+.food-items{
+    background: url(img/images.jpg) ;
+height: 50vh;
+border: 3px darkmagenta solid;
+    display: flex;
+    justify-content: space-evenly;
+text-align: center;
+line-height: .4;
+position: relative;
+}
+
+.food-items::before{
+position: absolute;
+content: "";
+width: 100%;height: 100%;
+background-color: rgb(0,0,0,.2);
+}
+.food-items *{
+    z-index: 10;
+}
+
+.food-items img{
+width:150px;
+height: 150px;
+margin-top: 50px;
+border: solid 4px black;
+}
+
+#day-time h4{
+    color: white;
+      font-family:'Tahoma';
+      font-size: 400;
+
+}
+.food-items span{
+    color: aliceblue;font-weight: 300px;
+}
+
+#day-time{
+    margin-top: 6rem;
+}
+.img img{
+width: 300px;height: 300px;
+border-radius:15px;    margin: 20px;
+opacity: .9;
+
+}
+
+.img img:hover{
+opacity: 1;
+}
+.content4{
+position: relative;
+left: 100px;
+
+}
+#gall{
+background-color: rgb(248, 248, 248);
+margin-top: 9rem;
+}
+
+
+#contact{
+    padding: 5rem 0 ;
+    line-height: 1.7;margin: 20px 0;
+    font-weight: 500;
+}
+
+
+.content5{
+margin-left: 100px;
+
+}
+.hours h3,.follow h3,.information h3{
+    margin-bottom: 4px;color: darkmagenta;text-transform: uppercase;
+}
+.hours span,.information span{
+    color: rgb(139, 124, 124);
+}
+.content5{
+    display: flex;justify-content: space-between;justify-items: center;
+}
+/*
+.lables{
+    margin-left: 30rem;    
+}
+
+.lables input{
+    padding: 10px 15px;
+    margin:20px 0;
+}
+*/
+form{
+    width: 50%;
+}
+form input,textarea{
+    width: 90%;
+    padding: 10px 5px;
+    margin: 10px;
+    background-color: rgb(238, 226, 238);
+    border: 1px solid rgb(238, 226, 238);
+}
+#sub{
+    background-color: rgb(150, 30, 150);
+    width: 60%;
+    color: aliceblue;
+    padding: 8px 5px;
+margin-left: 7rem;
+border-radius: 5px;
+}
+#sub:hover{
+color:  rgb(150, 30, 150);
+background-color:white;
+font-weight: bold;
+cursor: pointer;
+}
+
+#footer{
+    background-color: rgb(77, 198, 116);
+    color: aliceblue;
+    height: 10vh;
+    font-weight: 400;
+    line-height: .6;
+    text-align: center;
+ padding: 20px;
+}
+
+
+#footer a{
+    color: rgb(255, 251, 19);
+}
+ html{
+    scroll-behavior:smooth ;
+ }
