@@ -1,0 +1,64 @@
+@media (max-width: 768px) {
+    nav .menu-toggle {
+        display: block;
+        position: absolute;
+        top: 1rem;
+        right: 1rem;
+        z-index: 1000;
+        color: #fff;
+        border: solid;
+        padding: 1rem 1.3rem;
+
+        i {
+            display: block;
+        }
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        text-align: center;
+        background: rgba(89, 100, 62);
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        left: 0;
+    }
+
+    nav ul.active {
+        display: flex;
+    }
+
+    nav ul li {
+        padding: 15px 0;
+    }
+
+    #hero {
+        padding: 1rem 5rem;
+    }
+
+    .flex {
+        flex-wrap: wrap;
+    }
+
+    .gallery2 {
+        flex-wrap: wrap;
+        height: 100%;
+    }
+
+    #menu ul li span {
+        left: 10rem;
+    }
+
+    #day-time div {
+        margin-bottom: 3rem;
+    }
+
+    #contact form {
+        margin: auto;
+        width: 90%;
+    }
+
+
+}
