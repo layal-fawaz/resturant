@@ -1,3 +1,9 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -25,6 +31,7 @@ header {
     width: 100%;
     background-color: transparent;
     transition: background-color 0.3s ease;
+    padding: 2rem;
 }
 
 .scrolled,
@@ -80,7 +87,13 @@ ul li a:hover {
     position: relative;
 
     h1 {
-        font-size: 25px;
+        font-size: 30px;
+        margin-bottom: 1rem;
+    }
+
+    p {
+        font-size: 1.4rem;
+
     }
 }
 
@@ -107,6 +120,9 @@ button {
 #hero button {
     background-color: transparent;
     color: aliceblue;
+    margin: 2rem;
+    font-size: medium;
+
 }
 
 #hero button:hover {
@@ -124,7 +140,6 @@ button {
 .container div:first-child {
     padding: 2rem;
     text-align: center;
-
 }
 
 #about button {
@@ -195,10 +210,6 @@ button {
 }
 
 /*-----------------------------------------------------*/
-
-
-
-
 #menu {
     padding: 6rem 4rem 0;
 
@@ -258,6 +269,11 @@ button {
 /*---------------------------------------------------------------------*/
 #day-time {
     padding: 5rem;
+
+    h2 {
+        text-align: center;
+        margin: 3rem;
+    }
 }
 
 .food-items {
@@ -373,14 +389,15 @@ textarea {
 
 #footer {
     color: rgb(255, 255, 255);
-    height: 10vh;
     font-weight: 400;
-    line-height: .6;
     text-align: center;
     padding: 1rem;
 
+    p {
+        padding: 1rem;
+    }
+
     a {
         color: rgb(205, 135, 82);
-
     }
 }
